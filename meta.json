@@ -1,0 +1,25 @@
+{
+  "id": "91260800196",
+  "publishPath": "2018/building-berkeley/",
+  "url": "http://projects.dailycal.org/2018/building-berkeley/",
+  "timestamp": "2017-04-13T08:13-0400",
+  "dateline": "04/13/17 08:13 PM EDT",
+  "share": {
+    "fbook": {
+      "card_title": "building-berkeley",
+      "card_description": "UC Berkeley's independent student-run newspaper"
+    },
+    "twitter": {
+      "card_title": "building-berkeley",
+      "share_tweet": "UC Berkeley's independent student-run newspaper"
+    },
+    "image": {
+      "url": "http://projects.dailycal.org/2018/building-berkeley/images/share.jpg",
+      "alt": "<Text>",
+      "type": "image/jpeg",
+      "width": "600",
+      "height": "300"
+    },
+    "keywords": "Daily Cal, news"
+  }
+}

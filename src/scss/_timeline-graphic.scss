@@ -1,0 +1,35 @@
+#timeline-graphic {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .circle {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        background-image: url('../images/cluster.png');
+        background-size: 32px 32px;
+        border-radius: 50%;
+        text-align: center;
+        opacity: 0.7;
+        color: white;
+    }
+}
+
+#timeline-graphic-container {
+    width: 100%;
+    height: 50vmin;
+    min-height: 300px;
+
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+
+     -moz-box-shadow:       20px 20px 20px 0px white;
+        -webkit-box-shadow: 20px 20px 20px 0px white;
+         box-shadow:        20px 20px 20px 0px white;
+
+    background-size: 100% 100%;
+}

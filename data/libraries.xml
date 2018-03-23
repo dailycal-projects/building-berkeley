@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Libraries</name>
+    <open>1</open>
+    <description>Information</description>
+<Style id="Libraries">
+<LineStyle><color>99294F58</color><width>1</width></LineStyle>
+<PolyStyle><color>88294F58</color></PolyStyle>
+</Style>
+<Style id="markerstyle">
+<IconStyle><Icon><href>
+http://maps.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png
+</href></Icon></IconStyle>
+</Style>
+<Placemark>
+<name>Bancroft Library/University Archives</name>
+<Point>
+<coordinates>-122.2587,37.8723,0</coordinates>
+</Point>
+<Image>bancroft_library.jpg</Image>
+<built>Built 1949</built>
+<summary></summary>
+<description>Home to many special collections, this library began with an extensive trove of materials on California and Western history donated by Hubert Howe Bancroft in the 19th century. The Bancroft includes the Mark Twain Papers, the Regional Oral History Office, the UC Archives, and other collections and artifacts. The building (entrance on the east side of Doe Library), designed by Arthur Brown Jr., reopened in 2009 after a major seismic upgrade; its renovated interior is among the campus's most beautiful spaces. </description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Engineering Library</name>
+<Point>
+<coordinates>-122.25807,37.87425,0.0</coordinates>
+</Point>
+<Image>engineering_library.jpg</Image>
+<built>Built 1980</built>
+<summary></summary>
+<description>The services and collections of the Kresge Engineering Library support the research and teaching programs of the College of Engineering. The print and electronic collections include research materials in the following areas: bioengineering, civil engineering, computer science, electrical engineering, environmental engineering, industrial engineering, materials science, mechanical engineering, operations research, and nuclear engineering.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Pacific Film Archive and Study Center</name>
+<Point>
+<coordinates>-122.255667,37.86871000000001,0.0</coordinates>
+</Point>
+<Image>bam.jpg</Image>
+<built>Built 1970</built>
+<summary></summary>
+<description><![CDATA[This major campus art center includes 11 exhibition galleries, a sculpture garden, a bookstore, and Caf&#233; Muse restaurant. It was designed by San Francisco artist Mario Ciampi and built with support from the Berkeley Centennial fund and a gift from prominent artist and professor Hans Hoffman.]]></description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Doe Memorial Library</name>
+<Point>
+<coordinates>-122.25955999999999,37.872439999999997,0</coordinates>
+</Point>
+<Image>doe_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Doe Library supports the teaching, research, and instructional needs affiliated with more than fifty academic departments and programs in the Arts and Humanities, Social Sciences, and International and Area Studies. The Doe Library building is home to several libraries and is connected to the Gardner (MAIN) Stacks where the collections of the Doe/Moffitt Libraries are shelved.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Morrison Library</name>
+<Point>
+<coordinates>-122.25955999999999,37.872439999999997,0</coordinates>
+</Point>
+<Image>morrison_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>Morrison Library opened in 1928 as a reading room providing an ambient atmosphere for students to take a break from the rigors of academic life. An architectural treasure of the Berkeley campus, Morrison Library (on the first floor of the Doe Library) offers comfortable seating for leisurely reading, and maintains a circulating collection of newly published fiction and non-fiction. Morrison Library also has a limited collection of circulating audiobooks, subscriptions to several popular magazines and a few daily newspapers.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Starr East Asian Library</name>
+<Point>
+<coordinates>-122.26034,37.873570000000001,0.0</coordinates>
+</Point>
+<Image>starr_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>Berkeley's vast collection of East Asian manuscripts and artifacts &#151; assembled over the past century &#151; is housed in this library, the first freestanding structure at a U.S. university erected solely for East Asian collections. The East Asian Library is home to more than 900,000 volumes, primarily in Chinese, Japanese and Korean, plus thousands of manuscripts and rubbings, and the largest and most valuable collection of historic Japanese maps outside of Japan. It is also the largest U.S. academic repository of materials on the People's Republic of China. The library is named for the late Cornelius Vander Starr, an insurance pioneer deeply interested in Asia and a major donor to the library's building fund.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Moffitt Library</name>
+<Point>
+<coordinates>-122.26081000000001,37.872549999999997,0</coordinates>
+</Point>
+<Image>moffitt_library.jpg</Image>
+<built>Built 1970</built>
+<summary>Library, Free Speech Movement Caf&#233;, Media Resources Center, Makerspace, Student Tech Help Desk, 24 hours</summary>
+<description>Moffitt Library offers a 24 hour environment for individual and group study space, plus course reserves, a makerspace, campus classrooms, and convenient access to the research collections in the Gardner (MAIN) Stacks. FSM Cafe in Moffitt is open to all visitors; library access is limited to UC Berkeley students and faculty.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Hargrove Music Library</name>
+<Point>
+<coordinates>-122.2561,37.870440000000002,0.0</coordinates>
+</Point>
+<Image>hargrove_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>Home of the No. 1 academic music library in the United States, this high-tech building is located in the campus's southeast "arts quadrangle." Hargrove Music Library houses some 200,000 volumes of printed music, books and periodicals; more than 50,000 sound and video recordings; and extensive holdings of manuscripts and other rare materials. The collection serves the diverse teaching and research needs of the music department, which offers a general undergraduate major; graduate programs in musicology, ethnomusicology and composition; and a variety of performance activities.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Howison Philosophy Library</name>
+<Point>
+<coordinates>-122.25799000000001,37.870989999999999,0.0</coordinates>
+</Point>
+<Image>howison_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Howison Philosophy Library is located on the third floor of Moses Hall. Its collection originated as the personal library of George Howison, the founding member of the Berkeley philosophy department, and it now includes 60 periodicals and over 10,000 monographs. The Department holds colloquia and other events in the Library. Although Howison Library is not a circulating library, it is open to the general public.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Bioscience &amp; Natural Resources Library</name>
+<Point>
+<coordinates>-122.26211000000001,37.871479999999998,0</coordinates>
+</Point>
+<Image>bioscience_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The staff and collections support research and teaching in all fields related to the life sciences and natural resources, including genetics, evolution, ecology, bioinformatics, environmental science and policy, conservation, and nutrition.
+</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Environmental Design Library</name>
+<Point>
+<coordinates>-122.25488,37.8705,0</coordinates>
+</Point>
+<Image>env_design_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Environmental Design Library is one of the premier architecture, landscape architecture, and city and regional planning libraries in North America. The Library supports the research and teaching of the College of Environmental Design.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Anthropology Library</name>
+<Point>
+<coordinates>-122.2552,37.869880000000002,0</coordinates>
+</Point>
+<Image>anthropology_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Anthropology Library was established in 1956 and is part of the Anthropology complex which includes the Department of Anthropology, the Phoebe A. Hearst Museum of Anthropology, the Archaeological Research Facility, and the Folklore Archive. The collections include academic works covering socio-cultural anthropology, traditional cultures, archaeology, folklore methods and theory, as well as physical anthropology. Comfortable seating areas and public PCs make the George and Mary Foster Anthropology Library a pleasant place to study.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Berkeley Law Library</name>
+<Point>
+<coordinates>-122.25341,37.86992,0</coordinates>
+</Point>
+<Image>law_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Law Library's collection is rich in legal history and common law material and has one of the finest collections of comparative law, international and human rights law and civil law in the world. The Law Library also is home to the world-renowned Robbins Collection of rare books and manuscripts in civil and religious law.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Chemistry and Chemical Engineering Library</name>
+<Point>
+<coordinates>-122.255532,37.872895,0.0</coordinates>
+</Point>
+<Image>chemistry_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Chemistry and Chemical Engineering Library's services and collections support the teaching, learning, and research needs of the College of Chemistry.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Earth Sciences and Map Library</name>
+<Point>
+<coordinates>-122.259660,37.873996,0.0</coordinates>
+</Point>
+<Image>earthscience_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Earth Sciences and Map Library develops research-level collections and services to support the teaching, research, and learning needs of the Department of Earth and Planetary Science, Department of Geography, and Seismological Laboratory. We also have one of the largest map collections in California. Large format scanning and printing services are available.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Business Library</name>
+<Point>
+<coordinates>-122.25384,37.871690000000001,0.0</coordinates>
+</Point>
+<Image>business_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description><![CDATA[The Thomas J. Long Business Library is your hub for business information at UC Berkeley. We source the highest quality resources &#151; academic and professional, print and online &#151; for conducting business research. Three reference librarians are on staff to help you find the data you need.]]></description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Ethnic Studies Library</name>
+<Point>
+<coordinates>-122.25761,37.87124,0.0</coordinates>
+</Point>
+<Image>ethnicstudies_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Library comprises the Asian American Studies Collections, the Chicano Studies Collection, the Comparative Ethnic Studies Collection and the Native American Studies Collection.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Optometry and Health Sciences Library</name>
+<Point>
+<coordinates>-122.254711,37.871525,0.0</coordinates>
+</Point>
+<Image>fongoptometry_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Fong Optometry and Health Sciences Library provides services and collections to support the reesearch and teaching needs of the School of Optometry, the Joint Medical Program, the Unviersity of California, Berkeley and community. The collection includes materials in all formats, in the fields of optometry, ophthalmology, and vision science, as well as anatomy, physiology, neurology, biochemistry, pathology, and microbiology of the visual organs of humans and other animals; visual and color perception; ocular pharmacology; occupational and environmental vision; ophthalmic photography; low vision and blindness; history of optometry; and the social, legal, economic, and professional aspects of eye care.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Institue of Governmental Studies Library</name>
+<Point>
+<coordinates>-122.25799000000001,37.870989999999999,0.0</coordinates>
+</Point>
+<Image>moses.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Institute of Governmental Studies Library is one of the nation's premier libraries of non-trade and ephemeral materials on American public affairs and policy. Pamphlets and unbound reports from a broad spectrum of public interest organizations, research institutes and government agencies are the heart of the collection. The library also has a strong core collection of books and journals on American political science and public administration.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Mathematics Statistics Library</name>
+<Point>
+<coordinates>-122.25783,37.873629999999999,0</coordinates>
+</Point>
+<Image>mathstatistics_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Mathematics Statistics Library maintains and develops research-level collections and services to support the teaching, research, and learning needs of the Department of Mathematics, Department of Statistics, and Group in Logic and the Methodology of Science.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Northern Regional Library</name>
+<Point>
+<coordinates>-122.334985,37.917643,0.0</coordinates>
+</Point>
+<Image>nrlf_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Northern Regional Library Facility (NRLF) is a cooperative library storage facility, the first of its kind in California. It is owned and operated by the University of California and is located on the grounds of UC Berkeley's Richmond Field Station.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Physics-Astronomy Library</name>
+<Point>
+<coordinates>-122.25688,37.872489999999999,0.0</coordinates>
+</Point>
+<Image>physicsastronomy_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Physics-Astronomy Library develops and maintains research-level collections and services to support the teaching, research, and learning needs of the Department of Astronomy, Department of Physics, and the Space Sciences Laboratory.
+</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Public Health Library</name>
+<Point>
+<coordinates>-122.26635,37.87189,0.0</coordinates>
+</Point>
+<Image>publichealth_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Public Health Library's services and collections support primarily the School of Public Health and its research units. Its collection is particularly strong in all areas of public health, nutrition in health and disease, health administration, epidemiology, toxicology, occupational health, maternal and child health, biostatistics, communicable diseases, community health and environmental health. The library also collects in the area of international health.
+</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Social Research Library</name>
+<Point>
+<coordinates>-122.26105,37.873739999999998,0.0</coordinates>
+</Point>
+<Image>socialresearch_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Social Research Library primarily serves the School of Social Welfare and the School's related research centers. The library welcomes independent researchers and practitioners. The library will offer new services such as lending laptops, and newly configured space for group study/seminars. The book collection has been completely rebuilt, focusing on research that addresses social and individual problems from a variety of disciplines including psychology, education, social welfare and public policy.
+</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>South/Southeast Asia Library</name>
+<Point>
+<coordinates>-122.25955999999999,37.872439999999997,0</coordinates>
+</Point>
+<Image>southeastasia_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The South/Southeast Asia Library is the Berkeley campus library reference center for South and Southeast Asian social sciences and humanities.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Institute for Research on Labor and Employment Library</name>
+<Point>
+<coordinates>-122.257882,37.867318,0.0</coordinates>
+</Point>
+<Image>irle_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The IRLE Library is an Affiliated Library of the UC Berkeley campus. It houses in excess of 45,000 volumes with a special focus on labor issues, labor economics, and organizations.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Art History/Classics Library</name>
+<Point>
+<coordinates>-122.25955999999999,37.872439999999997,0</coordinates>
+</Point>
+<Image>artclassics_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Art History/Classics Library holdings include over 33,000 volumes with 100,000+ shelved in the Gardner (MAIN) Stacks and serve as a core research collection supporting UC Berkeley's graduate program in History of Art, Classics, and Ancient History and Mediterranean Archaeology.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Graduate Services</name>
+<Point>
+<coordinates>-122.25955999999999,37.872439999999997,0</coordinates>
+</Point>
+<Image>graduate-svcs_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>Graduate Services in Doe Library offers a core non-circulating research collection that supports UC Berkeley's graduate programs in the humanities and history, course reserves for graduate humanities and social sciences courses, and a quiet and congenial study space for graduate students and faculty. Graduate Services also houses the Dissertation Writer's Room, which is a space dedicated to doctoral students advanced to candidacy.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Newspapers &amp; Microform Library</name>
+<Point>
+<coordinates>-122.25955999999999,37.872439999999997,0</coordinates>
+</Point>
+<Image>newspaper-microform_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>Newspapers &amp; Microforms contains the Library's principal collections of newspapers (over 200 active newsprint subscriptions, and over 900 titles archived on microfilm), and microforms (microfilm, microfiche, and micro-opaque formats that include 950,000 books, manuscripts, documents, and serials of significant academic and journalistic value).</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Graduate Theological Union Library</name>
+<Point>
+<coordinates>-122.261843,37.875544,0.0</coordinates>
+</Point>
+<Image>GTU_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The library houses the most extensive collection of theological materials in the western states.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Institute of Transportation Studies Library</name>
+<Point>
+<coordinates>-122.259051,37.873829,0.0</coordinates>
+</Point>
+<Image>mclaughlin2.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Harmer E. Davis Transportation Library houses one of the pre-eminent transportation collections in the United States. Established in 1948, the ITS Library serves the research needs of the Institute of Transportation Studies and the University of California system.
+</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Media Resources Center</name>
+<Point>
+<coordinates>-122.26081000000001,37.872549999999997,0</coordinates>
+</Point>
+<Image>moffitt.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Media Resources Center (MRC) is the UC Berkeley Library's primary collection of materials in audio and visual formats, including DVDs, videocassettes, streamed audio and video, compact audio discs, and audiocassettes.
+</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Pacific Earthquake Engineering Research (PEER) Library</name>
+<Point>
+<coordinates>-122.332485,37.918328,0.0</coordinates>
+</Point>
+<Image>peer_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The National Information Service for Earthquake Engineering (NISEE) specializes in earthquake structural engineering, geotechnical engineering, engineering dynamics, engineering seismology, earthquake public policy and natural hazard risks.
+</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Career Counseling Library</name>
+<Point>
+<coordinates>-122.26455,37.867879,0.0</coordinates>
+</Point>
+<Image>career_library.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Career Counseling Library can help you assess your interests, personality, values, and skills. Choose a major. Explore career options. Research graduate and professional schools.
+</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Visual Resources Center</name>
+<Point>
+<coordinates>-122.25488,37.8705,0</coordinates>
+</Point>
+<Image>wurster-vrc.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Visual Resources Center is a library of teaching and research images, primarily serving the College of Environmental Design at the University of California, Berkeley. We hold over 82,000 digital images, over 300,000 35mm slides, and 37,000 lantern slides depicting architecture, landscapes, cities, and related material.
+</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+<Placemark>
+<name>Data Lab</name>
+<Point>
+<coordinates>-122.25955999999999,37.872439999999998,0</coordinates>
+</Point>
+<Image>doe.jpg</Image>
+<built></built>
+<summary></summary>
+<description>The Data Lab offers consultations on research involving numeric data, including finding and recommending data sources and advising on technical data issues such as file format conversion, web scraping, and basic statistical software use. The Lab also provides workstations with analytical software such as ArcGIS, Stata, SAS, SPSS, Stata, R, and Python.</description>
+<styleUrl>#Libraries</styleUrl>
+</Placemark>
+</Document>
+</kml>
