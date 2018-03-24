@@ -4,9 +4,14 @@ import json
 from pprint import pprint
 
 with open('data/buildings.xml', 'r') as content_file:
-    content = content_file.read()
+    buildings_content = content_file.read()
 
-data = xmltodict.parse(content)
+buildings_data = xmltodict.parse(buildings_content)
+
+with open('data/buildings.xml', 'r') as content_file:
+    libs_content = content_file.read()
+
+libs_data = xmltodict.parse(libs_content)
 
 def polygon_to_list(polygon):
     lst = []
@@ -45,26 +50,33 @@ def polygon_to_list(polygon):
 
 processed_buildings = {}
 
-for building_data in data['kml']['Document']['Placemark']:
-    if 'Polygon' in building_data.keys():
-        polygons = building_data['Polygon']
-        name = building_data['name']
-        built = building_data['built']
-        # print(name)
+def process_data(data):
+    for building_data in data['kml']['Document']['Placemark']:
+        if 'Polygon' in building_data.keys():
+            polygons = building_data['Polygon']
+            name = building_data['name']
+            built = building_data['built']
+            # print(name)
 
-        if type(polygons) == list:
-            # process multiple
-            processed_building = []
-            for shape in polygons:
-                processed_building.append([polygon_to_list(shape)])
-        else:
-            processed_building = polygon_to_list(polygons)
+            if type(polygons) == list:
+                # process multiple
+                processed_building = []
+                for shape in polygons:
+                    processed_building.append([polygon_to_list(shape)])
+            else:
+                processed_building = polygon_to_list(polygons)
 
-        processed_buildings[name] = [built, processed_building]
+            processed_buildings[name] = [built, processed_building]
 
-# pprint(processed_buildings)
-with open('src/data/processed_buildings.json', 'w') as fp:
-    json.dump(processed_buildings, fp)
+process_data(buildings_data)
+process_data(libs_data)
+
+lst = list(processed_buildings.keys())
+lst.sort()
+pprint(lst)
+
+# with open('src/data/processed_buildings_and_libs.json', 'w') as fp:
+#     json.dump(processed_buildings, fp)
 
 
 

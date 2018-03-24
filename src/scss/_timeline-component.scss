@@ -1,6 +1,13 @@
 .timeline-component {
     opacity: 0.4;
     margin: 100px 0px;
+
+    p {
+        line-height: 1.15;
+        padding-left: 3em;
+        text-indent: -3em;
+        margin: auto;
+    }
 }
 
 .active-timeline-component {

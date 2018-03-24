@@ -2,13 +2,21 @@
 //      1. It highlights the active timeline-component. 
 //      2. And it changes the graphic to show the appropriate data. 
 
-var data = [];
-$.getJSON("data/processed_buildings.json", function(json) {
-    data = json;
+require('../data/processed_buildings_and_libs.json');
+require('../data/building_years.json');
+
+var shape_data = [];
+$.getJSON("data/processed_buildings_and_libs.json", function(json) {
+    shape_data = json;
+});
+
+var year_data = [];
+$.getJSON("data/building_years.json", function(json) {
+    year_data = json;
 });
 
 function isCentered(obj) {
-    var gridTop = 40;
+    var gridTop = 20;
     var thisTop = $(obj).offset().top - $(window).scrollTop() - $('#timeline-graphic').height();
 
     // var gridBottom = $(window).height() * 1.0;
@@ -32,33 +40,17 @@ function highlight() {
 
 function updateGraphic() {
     $('.timeline-component').each(function(i, obj) {
-        $('#timeline-graphic').removeClass(obj.id);
-        markers.clearLayers();
-    });
-    $('.timeline-component').each(function(i, obj) {
         var every_other = ['original', '1900s', '1920s', '1940s', '1960s', '1980s', '2000s'];
         // var objs2 = ['1890s', '1910s', '1930s', '1950s', '1970s', '1990s', '2010s'];
         // var data1 = [{'lat': 37.871384, 'long': -122.258523, 'message': 'South Hall - Built 1873'}];
         // var data2 = [{'lat': 37.872557, 'long': -122.260949, 'message': 'Moffitt Library - Built 1970'}];
 
         if (isCentered(obj)) {
-            if (every_other.indexOf(obj.id) >= 0) {
-                // $('#timeline-graphic').css(
-                //     {'background-image': 
-                //     'url("http://bid.berkeley.edu/images/largemap.gif")'
-                // });
-                updateMapData(data);
-            } else {
-                // $('#timeline-graphic').css(
-                //     {'background-image': 
-                //     'url("http://www.ucmp.berkeley.edu/museum/vlsb_campusmap.gif")'
-                // });
-                var filtered = Object.keys(data).reduce(function (filtered, key) {
-                    if (key != 'Lawrence Berkeley National Laboratory') filtered[key] = data[key];
-                    return filtered;
-                }, {});
-                updateMapData(filtered);
-            }
+            $('.timeline-component').each(function(i, obj) {
+                $('#timeline-graphic').removeClass(obj.id);
+                markers.clearLayers();
+            });
+            updateMapData(obj.id);
             return false;
         }
     });
@@ -92,20 +84,70 @@ L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x
 
 var markers = new L.featureGroup();
 
-function updateMapData(data) {
+function getColor(highlightedSection, row) {
+    var built = parseInt(row['Built']);
+    var built10 = Math.floor(built / 10) * 10;
+    var sectYear = highlightedSection;
+
+    if (row['Razed']) {
+        var razed = parseInt(row['Razed']);
+        var razed10 = Math.floor(razed / 10) * 10;
+    }
+
+    var builtColor = 'green';
+    var razedColor = 'red';
+    var existedColor = 'black';
+
+    if (sectYear == 1873) {
+        if (built == 1873) {
+            return builtColor
+        } else {
+            return null;
+        }
+    }
+    
+    if (sectYear == built10) {
+        return builtColor
+    } else if ((sectYear > built10 && razed == null) || (sectYear < razed10 && sectYear > built10)) {
+        return existedColor
+    } else if (razed != null && sectYear == razed10) {
+        return razedColor
+    } else {
+        return null
+    }
+}
+
+function updateMapData(highlightedSection) {
     // for every line in the spreadsheet, add a point with the lat and long that has the pop message
 
-    for (var key in data) {
-        var value = data[key];
-        console.log(value[1]);
-        var polygon = L.polygon(value[1], {color: 'red', fill: true, stroke: false});
-        polygon.bindPopup(key + ' - ' + value[0]);
-        markers.addLayer(polygon);
-        // map.fitBounds(polygon.getBounds());
+    var missingShapes = []
+
+    for (var row in year_data) {
+        var name = year_data[row]['Building Name'];
+        var built = year_data[row]['Built'];
+        var razed = year_data[row]['Razed'];
+        // console.log(row);
+        // console.log(shape_data)
+        if (name in shape_data) {
+            var value = shape_data[name];
+            // console.log(value[1]);
+            var buildingColor = getColor(highlightedSection, year_data[row]);
+            // console.log(namebuildingColor);
+            if (buildingColor != null) {
+                var polygon = L.polygon(value[1], {color: buildingColor, fill: true, stroke: false});
+                polygon.bindPopup(name);
+                markers.addLayer(polygon);
+            }
+        } else {
+            missingShapes.push(name);
+        }
+        console.log(missingShapes)
     }
 
     map.addLayer(markers);
-    map.fitBounds(markers.getBounds());
+    if (markers.getBounds()['_northEast']) {
+        map.fitBounds(markers.getBounds());
+    }
 }
 
 $(document).ready(function() {

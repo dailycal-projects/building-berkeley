@@ -2573,28 +2573,6 @@ Built in 1933 as Harmon Gym; reconstructed in 1999 as Haas Pavilion, a state-of-
 </Placemark>
 <Placemark>
 <Point>
-<coordinates>-122.266425,37.870781,0.0 </coordinates>
-</Point>
-<Image>bampfa.jpg</Image>
-<name>Pacific Film Archive, Berkeley Art Museum and</name>
-<built>2016</built>
-<summary></summary>
-<description><![CDATA[BAMPFA is the visual arts center of UC Berkeley. Its mission is to inspire the imagination and ignite critical dialogue through art and film. Founded in 1963, the institution opened the doors to its current home designed by Diller Scofidio + Renfro in January 2016.]]></description>
-<styleUrl>#Lump</styleUrl>
-<Polygon>
-<tessellate>1</tessellate>
-<altitudeMode>clampToGround</altitudeMode>
-<outerBoundaryIs><LinearRing><coordinates>
--122.266733,37.870608,0.0 
--122.266049,37.870684,0.0 
--122.266143,37.871358,0.0 
--122.266846,37.871282,0.0 
--122.266733,37.870608,0.0
-</coordinates></LinearRing></outerBoundaryIs>
-</Polygon>
-</Placemark>
-<Placemark>
-<Point>
 <coordinates>-122.266221,37.870942,0.0</coordinates>
 </Point>
 <Image>bampfa.jpg</Image>

@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2568634-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-2568634-2');
+        </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta charset="utf-8">
+        
+<title>building-berkeley</title>
+
+        <link rel="apple-touch-icon" href="http://www.dailycal.org/assets/uploads/2017/06/2017_favicon.png"/>
+<link rel="shortcut icon" href="http://www.dailycal.org/assets/uploads/2017/06/Web-favicon-12.png"/>
+        <meta property="og:type" content="article">
+<meta property="og:site_name" content="The Daily Californian">
+<meta name="host" content="www.dailycal.org">
+<!--<meta property="og:fb_appid" content="114037015331397" />-->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:site" content="@dailycal" />
+<!-- Author -->
+<meta property="twitter:creator" content="" />
+<meta property="article:author" content="https://www.facebook.com/" />
+<!-- Site URL -->
+<meta property="og:url" content="http://projects.dailycal.org/2018/building-berkeley/" />
+<link rel="canonical" href="http://projects.dailycal.org/2018/building-berkeley/" />
+<!-- Project title -->
+<meta property="twitter:title" content="building-berkeley" />
+<meta property="og:title" content="building-berkeley" />
+<!-- Project description -->
+<meta property="twitter:description" content="" />
+<meta property="og:description" content="UC Berkeley&#39;s independent student-run newspaper" />
+<meta name="description" content="UC Berkeley&#39;s independent student-run newspaper" />
+<!-- Keywords -->
+<meta property="og:keywords" content="Daily Cal, news" />
+<!-- Share image -->
+<meta property="twitter:image" content="http://projects.dailycal.org/2018/building-berkeley/images/share.jpg" />
+<meta property="twitter:image:alt" content="&lt;Text&gt;" />
+<meta property="og:image" content="http://projects.dailycal.org/2018/building-berkeley/images/share.jpg" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="300" />
+
+        
+        <link href="css/main-app.css" rel="stylesheet">
+        
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
+          integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
+          crossorigin=""/>
+        <!-- Font awesome -->
+        <script src="https://use.fontawesome.com/6c4d370962.js"></script>
+        <!-- jQuery -->
+        <script
+          src="https://code.jquery.com/jquery-3.2.1.min.js"
+          integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+          crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <nav title="navigation">
+            <div id="global-header">
+                <div id="global-branding">
+                  <div class="navbar-dc-logo">
+                   <a href="http://www.dailycal.org/" title="The Daily Californian" target="_top">
+                     <img class="navbar-brand" src="http://projects.dailycal.org/images/masthead.png">
+                   </a>
+                  </div>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fprojects.dailycal.org%2F2018%2Fbuilding-berkeley%2F"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fprojects.dailycal.org%2F2018%2Fbuilding-berkeley%2F&amp;via=dailycal&amp;text=UC%20Berkeley&#39;s%20independent%20student-run%20newspaper"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+
+            </div>
+        </nav>
+        
+
+        
+
+<header class="center">
+    <p class="category">
+        <a href="http://www.dailycal.org/section/special/charter-day-2018/"" target="_blank">Charter Day 2018</a>
+    </p>
+    <h1>Building Berkeley</h1>
+    <p class="subhead">For our Charter Day issue, The Daily Californian has created an interactive map for readers to see the expansion of UC Berkeley since its founding in 1868.</p>
+    <div class="info">
+        <p>
+            By <span class="byline"><a href="###">First Lastname</a></span> and <span class="byline"><a href="###">First Lastname</a></span> <br /> <span class="timestamp"> <time datetime="2017-04-13T08:13-0400">MARCH 23, 2017</time></span>
+        </p>
+    </div>
+</header>
+<!-- <figure class="large no-gutters-phone">
+    <img src="https:placehold.it/800x600?text=lead+art+here" alt="An awesome picture" />
+    <figcaption>Your concise caption here. <figcredit>First Last | Photo service</figcaption>
+</figure> -->
+
+
+         <article class="container">
+            
+
+
+    <p>The campus we know today is vastly different from its humble beginnings. In 1873, only two buildings comprised the campus — North and South Hall — one of which still stands today. Other buildings were not as lucky. </p>
+<p>Scroll down to find our map detailing buildings and landmarks through the decades as they grew to become the campus we walk through every day. Pay special attention to when iconic structures like the Campanile and Sather Gate were erected, and see how old some of the classrooms you’re sitting in are. </p>
+<p><i> Note: This map is not a comprehensive projection of every building to exist on campus — some have been left out for clarity. </i></p>
+
+
+    <div id="timeline-graphic-container">
+    <div id='timeline-graphic'></div>
+</div>
+
+    <div id='1873' class='timeline-component'>
+    <h2>The Original Campus - 1873</h2>
+    <p>1873 - South Hall: First of two original buildings; cornerstone laid 1872.</p>
+<p>1873 - North Hall: Razed in 1931. Site now occupied by Doe Library.</p>
+
+</div>
+
+    <div id='1870' class='timeline-component'>
+    <h2>1870s</h2>
+    <p>1879 - Mining and Mechanic Arts Building: Razed 1959 to clear site for Campbell Hall. Renamed Civil Engineering Building in 1907, and again renamed to Anthropological Museum in 1931.</p>
+
+</div>
+
+    <div id='1880' class='timeline-component'>
+    <h2>1880s</h2>
+    <p>1881 - Bacon Hall: Razed in 1961. Formerly known as Bacon Art and Library Building. Renamed in 1911. Razed to clear site for Birge Hall.</p>
+<p>1885 - Anatomy Building: 1937. Formerly Metallurgical Laboratory. Renamed in 1907. Razed to clear site for Crocker Radiation Laboratory.        </p>
+<p>1888 - Agriculture Building: Razed in 1930. Rebuilt as Budd Hall in 1897 after it was destroyed by fire. Razed 1930 to clear site for Moses Hall.</p>
+
+</div>
+
+    <div id='1890' class='timeline-component'>
+    <h2>1890s</h2>
+    <p>1891 - Chemistry Building: Razed in 1963. Razed to clear site for Hildebrand Hall.</p>
+<p>1893 - Mechanics Building: Renamed Mechanical and Electrical Engineering Building in 1931. Razed 1965 to clear site for Davis Hall addition.</p>
+<p>1893 - Goldman School: Formerly Beta Theta Fraternity chapter house. University purchased in 1966, became Public Policy school in 1969, named Goldman in 1997.</p>
+<p>1898 - Botany Building: Razin in 1930 as a fire hazard.</p>
+<p>1898 - East Hall: Razed in 1942 as a fire hazard. First located on site of LeConte Hall, moved to site of Morrison Hall in 1921.</p>
+<p>1898 - Hearst Hall: Destroyed by fire in 1922, now used for southern portion of Wurster Hall.</p>
+<p>1898 - Psychology Building: Razed in 1930. Formerly Philosophy Building. Renamed in 1916. Razed as fire hazard.</p>
+
+</div>
+
+    <div id='1900' class='timeline-component'>
+    <h2>1900s</h2>
+    <p>1903 - Faculty Club            </p>
+<p>1903 - Hearst Greek Theatre        </p>
+<p>1904 - Anthropology Building: Razed in 1953 to clear site for Hertz Hall.             </p>
+<p>1904 - Architecture Building: Renamed Engineering Research Services Building in 1964.</p>
+<p>1905 - California Hall    </p>
+<p>1906 - North Gate Hall              </p>
+<p>1906 - Senior Hall</p>
+<p>1907 - Hearst Memorial Mining Building</p>
+
+</div>
+
+    <div id='1910' class='timeline-component'>
+    <h2>1910s</h2>
+    <p>1911 - Durant Hall: Formerly Boalt Hall of Law. Renamed in 1951.</p>
+<p>1911 - University House: Formerly known as President’s House.</p>
+<p>1912 - Agriculture Hall          </p>
+<p>1912 - Girton Hall</p>
+<p>1912 - Wellman Hall</p>
+<p>1912 - Julia Morgan Hall</p>
+<p>1913 - Chemistry Auditorium: Razed in 1959 to clear site for Latimer Hall.</p>
+<p>1913 - Sather Gate and Bridge</p>
+<p>1914 - Sather Tower, as known as the Campanile</p>
+<p>1917 - Doe Memorial Library </p>
+<p>1917 - Gilman Hall</p>
+<p>1917 - Wheeler Hall</p>
+<p>1917 - Hilgard Hall</p>
+
+</div>
+
+    <div id='1920' class='timeline-component'>
+    <h2>1920s</h2>
+    <p>1920 - Military Science Building: Became Music Building in 1933, then Dwinelle Annex in 1958.</p>
+<p>1922 - Social Welfare Building: Razed in 1953 to clear site for Alumni House. </p>
+<p>1923 - Band Building: Razed in 1964 to improve pedestrian circulation.</p>
+<p>1923 - Stephens Hall: Formerly Stephens Memorial Union.</p>
+<p>1924 - Haviland Hall</p>
+<p>1924 - Hesse Hall    </p>
+<p>1924 - Le Conte Hall         </p>
+<p>1927 - Botanical Gardens         </p>
+<p>1927 - Hearst Gymnasium for Women         </p>
+<p>1927 - Anna Head Alumnae Hall </p>
+<p>1929 - Architects and Engineers Building: Formerly known as Grounds and Buildings Building. Renamed in 1961.</p>
+<p>1929 - Bowles Hall</p>
+
+</div>
+
+    <div id='1930' class='timeline-component'>
+    <h2>1930s</h2>
+    <p>1930 - Giannini Hall</p>
+<p>1930 - International House: Occupied by Navy V-12 units during World War II and called Callaghan Hall, returned to University 1946.</p>
+<p>1930 - Life Sciences Building        </p>
+<p>1931 - Davis Hall: Formerly known as Engineering Materials Laboratory. Renamed in 1966.</p>
+<p>1931 - Mclaughlin Hall: Formerly Engineering Building. Renamed in 1966.</p>
+<p>1931 - Moses Hall: Formerly Eshleman Hall (1931-1964). Originally a publications building for &quot;Daily Californian&quot; and student magazines owned by ASUC.</p>
+<p>1931 - Lawrence Berkeley National Laboratory </p>
+<p>1937 - Crocker Radiation Laboratory: Razed twice — 1962 and 1966. First lab built specifically to house a cyclotron. East portion of building razed 1962 to clear site for Physical Sciences Lecture Hall; west portion razed to improve campus landscape.</p>
+
+</div>
+
+    <div id='1940' class='timeline-component'>
+    <h2>1940s</h2>
+    <p>1941 - Optometry Building: Formerly Emergency Classroom Building then Durant Hall.</p>
+<p>1941 - Sproul Hall: Formerly Administration Building.</p>
+<p>1941 - Minor Hall              </p>
+<p>1942 - Donner Laboratory                     </p>
+<p>1942 - Stern Hall                </p>
+<p>1947 - Callaghan Hall        </p>
+<p>1948 - Lewis Hall  </p>
+<p>1948 - Mulford Hall: Formerly Forestry Building, renamed in 1964.</p>
+<p>1949 - Bancroft Library</p>
+
+</div>
+
+    <div id='1950' class='timeline-component'>
+    <h2>1950s</h2>
+    <p>1950 - Cory Hall</p>
+<p>1952 - Dwinelle Hall</p>
+<p>1953 - Home Economics Building: Renamed Morgan Hall in 1962.</p>
+<p>1953 - Morgan Hall </p>
+<p>1954 - Alumni House</p>
+<p>1954 - Giauque Hall  </p>
+<p>1955 - Warren Hall: Demolished and rebuilt at nearby location in 2005.</p>
+<p>1957 - Pelican Building                    </p>
+<p>1957 - Anthony Hall                  </p>
+<p>1958 - Hertz Memorial Hall of Music                            </p>
+<p>1958 - Morrison Hall                 </p>
+<p>1959 - Campbell Hall                 </p>
+<p>1959 - Haas Clubhouse                          </p>
+<p>1959 - Kroeber Hall                   </p>
+<p>1959 - University Hall                            </p>
+<p>1959 - O&#39;Brien Hall                    </p>
+<p>1959 - Martin Luther King Jr. Student Union: Rebuilt in 2015.</p>
+
+</div>
+
+    <div id='1960' class='timeline-component'>
+    <h2>1960s</h2>
+    <p>1960 - Cesar E. Chavez Student Center                          </p>
+<p>1961 - Earth Sciences Building                          </p>
+<p>1961 - McCone Hall                   </p>
+<p>1962 - Tolman Hall                    </p>
+<p>1963 - Chemical Biodynamics Laboratory                     </p>
+<p>1963 - Latimer Hall                    </p>
+<p>1964 - Barrows Hall                   </p>
+<p>1964 - Birge Hall                        </p>
+<p>1964 - Wurster Hall                    </p>
+<p>1964 - Barker Hall                      </p>
+<p>1964 - Etcheverry Hall                           </p>
+<p>1964 - Pimentel Hall                   </p>
+<p>1965 - Eshleman Hall: Rebuilt in 2015.</p>
+<p>1966 - Hildebrand Hall                           </p>
+<p>1966 - Lawrence Hall of Science                                                 </p>
+<p>1966 - Simon Hall                      </p>
+<p>1967 - Evans Hall         </p>
+<p>1968 - Moffitt Undergraduate Library                            </p>
+<p>1968 - Zellerbach Hall</p>
+
+</div>
+
+    <div id='1970' class='timeline-component'>
+    <h2>1970s</h2>
+    <p>1970 - Woo Han Fai Hall                       </p>
+<p>1974 - Office of Public Affairs</p>
+
+</div>
+
+    <div id='1980' class='timeline-component'>
+    <h2>1980s</h2>
+    <p>1980 - Bechtel Engineering Center                     </p>
+<p>1984 - Recreational Sports Facility</p>
+
+</div>
+
+    <div id='1990' class='timeline-component'>
+    <h2>1990s</h2>
+    <p>1990 - Koshland Hall                 </p>
+<p>1993 - Tang Center                     </p>
+<p>1994 - Soda Hall                        </p>
+<p>1995 - Cheit Hall                        </p>
+<p>1995 - Haas School of Business         </p>
+<p>1996 - Tan Hall                </p>
+<p>1999 - Haas Pavilion</p>
+
+</div>
+
+    <div id='2000' class='timeline-component'>
+    <h2>2000s</h2>
+    <p>2004 - Hargrove Music Library                         </p>
+<p>2007 - Stanley Hall                     </p>
+<p>2008 - Starr East Asian Library                          </p>
+<p>2009 - Sutardja Dai Hall</p>
+
+</div>
+
+    <div id='2010' class='timeline-component'>
+    <h2>Today</h2>
+    <p>2010 - Blum Hall. Formerly Naval Architecture Building, built in 1914</p>
+<p>2011 - Li Ka Shing Hall                         </p>
+<p>2012 - Energy Biosciences Building                  </p>
+<p>2015 - Jacobs Hall                      </p>
+<p>2016 - Berkeley Art Museum and Pacific Film Archive: Founded in 1963. Moved to new home in 2016.</p>
+
+</div>
+
+    <div class="nerd-box">
+<h4>About this story</h4>
+<p>Most data was collected from The Centennial Record of the University of California. This project also cited more recent structures from <a href="https://www.berkeley.edu/map">UC Berkeley’s Campus Map</a>.</p>
+<p>This project is open-source on <a href="https://github.com/dailycal-projects/building-berkeley">GitHub</a>.</p>
+
+<br>
+<h4>Support us</h4>
+<p>We're a nonprofit, student-run newsroom. Please consider <a href="https://donate.dailycal.org/">donating</a> to support our coverage.</p>
+</div>
+
+
+
+         </article>
+
+         
+         <footer>
+           <div id="global-footer">
+                <p class="footer-text">Questions, comments or corrections? Email <a href="mailto:projects@dailycal.org">projects@dailycal.org</a>.</p>
+
+                <p class="footer-text">Support innovative, independent student journalism. <a href="https://donate.dailycal.org/" target="_blank">Donate today</a>.</p>
+
+                <p class="footer-text">Copyright © 2017 The Daily Californian, The Independent Berkeley Student Publishing Co., Inc.</p>
+           </div>
+         </footer>
+         
+
+         <script type="text/javascript">window.tweetText = "UC Berkeley&#39;s independent student-run newspaper";</script>
+         <script type="text/javascript" src="js/main-app.bundle.js"></script>
+    </body>
+</html>
