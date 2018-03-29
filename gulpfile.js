@@ -14,6 +14,7 @@ const gulp = require('./gulp')([
   'dist',
   'html',
   'img',
+  'data',
   
 ]);
 
@@ -39,7 +40,7 @@ try {
 gulp.task('default', ['dev']);
 
 gulp.task('render', (cb) => {
-  runSequence('html', 'img', 'build', cb);
+  runSequence('html', 'img', 'data', 'build', cb);
 });
 
 gulp.task('preview', (cb) => {

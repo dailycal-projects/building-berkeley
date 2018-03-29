@@ -4,7 +4,7 @@ const prodConfig = require('../../webpack-prod.config.js');
 const webpackStream = require('webpack-stream');
 
 module.exports = () => {
-  return gulp.src('src/js/main.js')
+  return gulp.src(['src/js/main.js', 'src/data/*'])
     .pipe(webpackStream(prodConfig, webpack))
     .pipe(gulp.dest('dist/'))
 };
