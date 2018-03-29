@@ -25,3 +25,7 @@ function slugify(text)
     .replace(/^-+/, '')             // Trim - from start of text
     .replace(/-+$/, '');            // Trim - from end of text
 }
+
+// Have external links open in new tab
+$("a[href^='http://']").attr("target","_blank");
+$("a[href^='https://']").attr("target","_blank");
