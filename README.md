@@ -2,7 +2,7 @@
 
 | Title | building-berkeley |
 |-|-|
-| Developer    | [ianmac2100@gmail.com](ianmac2100@gmail.com) |
+| Developer    | [imacgregor@dailycal.org](imacgregor@dailycal.org) |
 | Link | [http://projects.dailycal.org/2018/building-berkeley/](http://projects.dailycal.org/2018/building-berkeley/) |
 
 
