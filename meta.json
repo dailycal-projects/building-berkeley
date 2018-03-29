@@ -6,20 +6,20 @@
   "dateline": "03/28/18 12:00 PM EDT",
   "share": {
     "fbook": {
-      "card_title": "building-berkeley",
-      "card_description": "UC Berkeley's independent student-run newspaper"
+      "card_title": "Building Berkeley",
+      "card_description": "See the expansion of UC Berkeley since its founding in 1868!"
     },
     "twitter": {
-      "card_title": "building-berkeley",
-      "share_tweet": "UC Berkeley's independent student-run newspaper"
+      "card_title": "Building Berkeley",
+      "share_tweet": "See the expansion of UC Berkeley since its founding in 1868!"
     },
     "image": {
-      "url": "http://projects.dailycal.org/2018/building-berkeley/images/share.png",
-      "alt": "<Text>",
-      "type": "image/png",
+      "url": "http://projects.dailycal.org/2018/building-berkeley/images/share.jpg",
+      "alt": "Building Berkeley",
+      "type": "image/jpeg",
       "width": "600",
       "height": "300"
     },
-    "keywords": "Daily Cal, news"
+    "keywords": "Daily Cal, news, Berkeley, timeline, Charter Day 2018"
   }
 }
