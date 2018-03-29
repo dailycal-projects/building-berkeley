@@ -2,11 +2,11 @@
 //      1. It highlights the active timeline-component. 
 //      2. And it changes the graphic to show the appropriate data. 
 
-require('../data/processed_buildings_and_libs.json');
+require('../data/shapes.json');
 require('../data/building_years.json');
 
 var shape_data = [];
-$.getJSON("data/processed_buildings_and_libs.json", function(json) {
+$.getJSON("data/shapes.json", function(json) {
     shape_data = json;
 });
 
@@ -121,6 +121,7 @@ function updateMapData(highlightedSection) {
     // for every line in the spreadsheet, add a point with the lat and long that has the pop message
 
     var missingShapes = []
+    var includedShapes = []
 
     for (var row in year_data) {
         var name = year_data[row]['Building Name'];
@@ -134,14 +135,21 @@ function updateMapData(highlightedSection) {
             var buildingColor = getColor(highlightedSection, year_data[row]);
             // console.log(namebuildingColor);
             if (buildingColor != null) {
-                var polygon = L.polygon(value[1], {color: buildingColor, fill: true, stroke: false});
+                var polygon = L.polygon(value[1], {
+                    color: buildingColor, 
+                    fillOpacity: 0.5, 
+                    fill: true, 
+                    stroke: false
+                });
                 polygon.bindPopup(name);
                 markers.addLayer(polygon);
             }
+            includedShapes.push(name);
         } else {
             missingShapes.push(name);
         }
         console.log(missingShapes)
+        console.log(includedShapes)
     }
 
     map.addLayer(markers);
